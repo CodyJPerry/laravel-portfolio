@@ -1,0 +1,45 @@
+
+// Fonts
+@import url("https://fonts.googleapis.com/css?family=Raleway:300,400,600");
+
+// Variables
+@import "variables";
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+.navbar-laravel {
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
+}
+
+// Header section ===============================
+.contact-header {
+  height: 60px;
+  background-color: #444554;
+  font-size: 24px;
+  color: white;
+
+  .social-icons,
+  .message-us {
+    display: inline-block;
+    margin-top: 10px;
+  }
+
+  .social-icons {
+    float: left;
+    margin-left: 30px;
+  }
+
+  .message-us {
+    float: right;
+    margin-right: 30px;
+  }
+
+}
+
+
+
+#site-header {
+  
+}

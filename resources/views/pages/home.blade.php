@@ -11,8 +11,8 @@
     </div>
     <div class="header-content">
       <h1>Custom Digital Solutions.</h1>
-      <p>Perry's' Development is an innovation forward-thinking web development firm. 
-      Let us build the technology specific to your companies wants and needs.</p>
+      <p>Perry's' Development is an innovative forward-thinking web development firm. 
+      We build digital platforms for businesses of all sizes.</p>
       <a href="#">Get Started!</a>
     </div>
   </header>

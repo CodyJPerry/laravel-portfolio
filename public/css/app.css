@@ -10050,6 +10050,8 @@ a.text-dark:focus {
 .header-content p {
   color: white;
   font-size: 1.6em;
+  letter-spacing: 2px;
+  width: 95%;
 }
 
 .header-content a {
@@ -10067,11 +10069,10 @@ a.text-dark:focus {
 }
 
 .header-content a:hover {
-  background: #24ADF5;
+  background: #111111;
   -webkit-transition: 0.6s ease all;
   transition: 0.6s ease all;
   border-radius: 1px;
-  border-color: #24ADF5;
-  color: #111111;
+  border-color: #111111;
 }
 

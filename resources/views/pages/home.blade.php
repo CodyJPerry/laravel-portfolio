@@ -7,6 +7,7 @@
       <span class="social-icons">logos</span>
       <span class="message-us">Contact Us!</span>
     </div>
-    this is the main header
+    <div class="header-img">
+    </div>
   </header>
 @endsection

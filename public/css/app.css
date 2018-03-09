@@ -10005,6 +10005,8 @@ a.text-dark:focus {
   background-color: #444554;
   font-size: 24px;
   color: white;
+  position: fixed;
+  width: 100%;
 }
 
 .contact-header .social-icons,
@@ -10015,11 +10017,18 @@ a.text-dark:focus {
 
 .contact-header .social-icons {
   float: left;
-  margin-left: 30px;
+  margin-left: 50px;
 }
 
 .contact-header .message-us {
   float: right;
-  margin-right: 30px;
+  margin-right: 50px;
+}
+
+.header-img {
+  height: 830px;
+  background-size: cover;
+  background-image: url("/images/header.png");
+  background-repeat: no-repeat;
 }
 

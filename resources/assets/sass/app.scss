@@ -19,6 +19,8 @@
   background-color: #444554;
   font-size: 24px;
   color: white;
+  position: fixed;
+  width: 100%;
 
   .social-icons,
   .message-us {
@@ -28,18 +30,20 @@
 
   .social-icons {
     float: left;
-    margin-left: 30px;
+    margin-left: 50px;
   }
 
   .message-us {
     float: right;
-    margin-right: 30px;
+    margin-right: 50px;
   }
 
 }
 
-
-
-#site-header {
-  
+.header-img {
+  height: 830px;
+  background-size: cover;
+  background-image: url('/images/header.png');
+  background-repeat: no-repeat;
 }
+

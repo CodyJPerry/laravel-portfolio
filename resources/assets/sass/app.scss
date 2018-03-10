@@ -7,20 +7,53 @@
 // Bootstrap
 @import '~bootstrap/scss/bootstrap';
 
+
+//Scroll-x 
+html {
+  overflow-x: hidden;
+}
+
+
+
 // Header section ===============================
+.navbar {
+    background-color: lighten(#3C3D4A, 5%);
+    font-size: 24px;
+    font-family: 'Arvo', serif;
+
+  .navbar-brand {
+    margin-left: 1rem;
+    font-size: 1.3em;
+    font-family: 'Coiny', cursive;
+    letter-spacing: 4px;
+    color: lighten(#004777, 42%);
+  }
+
+  .logo {
+    width: 68px;
+    height: 68px;
+    margin: 10px 0 1rem 10px;
+  }
+}
+
+  .navbar-expand-md .navbar-nav .nav-link {
+    margin-left: 0.7rem;
+    margin-right: 0.7rem;
+  }
+
+//top contact header
 .contact-header {
   height: 60px;
-  background-color: #444554;
+  background-color: #004777;
   font-size: 24px;
   color: white;
-  position: fixed;
   width: 100%;
-  z-index: 10;
+  border-bottom: 3px solid darken(#444554, 10%);
 
   .social-icons,
   .message-us {
     display: inline-block;
-    margin-top: 10px;
+    margin-top: 12px;
   }
 
   .social-icons {
@@ -140,4 +173,5 @@
 }
 
 }
+
 

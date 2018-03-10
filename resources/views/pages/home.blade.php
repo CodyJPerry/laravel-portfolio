@@ -7,6 +7,16 @@
       <span class="social-icons">logos</span>
       <span class="message-us">Contact Us!</span>
     </div>
+    <nav class="header-nav">
+      <ul>
+        <li>Home</li>
+        <li>Our Story</li>
+          <!-- TODO: insert logo -->
+        <li><span class="logo"></span></li>
+        <li>Work</li>
+        <li>Services</li>
+      </ul>
+    </nav>
     <div class="header-img">
     </div>
     <div class="header-content">
@@ -16,4 +26,13 @@
       <a href="#">Get Started!</a>
     </div>
   </header>
+
+  
+  <!-- WHAT WE OFFER -->
+  <div class="services-offered">
+    <span class="divider">What we offer</span>
+  </div>
+
+
+
 @endsection

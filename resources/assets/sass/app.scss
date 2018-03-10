@@ -7,11 +7,6 @@
 // Bootstrap
 @import '~bootstrap/scss/bootstrap';
 
-.navbar-laravel {
-  background-color: #fff;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
-}
-
 // Header section ===============================
 .contact-header {
   height: 60px;
@@ -39,6 +34,7 @@
   }
 }
 
+//header-image
 .header-img {
   height: 830px;
   background-size: cover;
@@ -47,6 +43,8 @@
   position: relative;
 }
 
+
+//content
 .header-content {
   position: absolute;
   top: 30%;
@@ -57,6 +55,9 @@
     color: #FF9F00;
     font-weight: bold;
     letter-spacing: 3px;
+    font-family: 'Coiny', cursive;
+    font-weight: 200;
+    letter-spacing: 4px;
   }
 
   p {
@@ -64,6 +65,7 @@
     font-size: 1.6em;
     letter-spacing: 2px;
     width: 95%;
+    font-family: 'Arvo', serif;
   }
 
   a {
@@ -86,5 +88,56 @@
       border-color: #111111;
     }
   }
+}
+
+// Nav 
+.header-nav {
+  height: 60px;
+  font-size: 30px;
+  color: white;
+  width: 100%;
+  z-index: 12;
+  position: absolute;
+  top: 10%;
+  left: 30%;
+  font-family: 'Arvo', serif;
+
+  ul li {
+    display: inline-block;
+    margin-right: 20px;
+    letter-spacing: 2px;
+
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+}
+
+
+// Services offered
+.services-offered {
+  span {
+    font-size: 2.5em;
+    text-align: center;
+    display:block;
+    margin: 50px 0;
+    font-family: 'Coiny', cursive;
+    color: #444553;
+  }
+
+  .divider {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  white-space: nowrap;
+  &:after, &:before {
+    content: '';
+    background-color: #3C3D4A;
+    height: 5px;
+    width: 35vw;
+    margin: 25px;
+  }
+}
+
 }
 

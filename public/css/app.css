@@ -9994,12 +9994,6 @@ a.text-dark:focus {
   }
 }
 
-.navbar-laravel {
-  background-color: #fff;
-  -webkit-box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
-          box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
-}
-
 .contact-header {
   height: 60px;
   background-color: #444554;
@@ -10045,6 +10039,9 @@ a.text-dark:focus {
   color: #FF9F00;
   font-weight: bold;
   letter-spacing: 3px;
+  font-family: 'Coiny', cursive;
+  font-weight: 200;
+  letter-spacing: 4px;
 }
 
 .header-content p {
@@ -10052,6 +10049,7 @@ a.text-dark:focus {
   font-size: 1.6em;
   letter-spacing: 2px;
   width: 95%;
+  font-family: 'Arvo', serif;
 }
 
 .header-content a {
@@ -10074,5 +10072,58 @@ a.text-dark:focus {
   transition: 0.6s ease all;
   border-radius: 1px;
   border-color: #111111;
+}
+
+.header-nav {
+  height: 60px;
+  font-size: 30px;
+  color: white;
+  width: 100%;
+  z-index: 12;
+  position: absolute;
+  top: 10%;
+  left: 30%;
+  font-family: 'Arvo', serif;
+}
+
+.header-nav ul li {
+  display: inline-block;
+  margin-right: 20px;
+  letter-spacing: 2px;
+}
+
+.header-nav ul li:last-child {
+  margin-right: 0;
+}
+
+.services-offered span {
+  font-size: 2.5em;
+  text-align: center;
+  display: block;
+  margin: 50px 0;
+  font-family: 'Coiny', cursive;
+  color: #444553;
+}
+
+.services-offered .divider {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  white-space: nowrap;
+}
+
+.services-offered .divider:after,
+.services-offered .divider:before {
+  content: '';
+  background-color: #3C3D4A;
+  height: 5px;
+  width: 35vw;
+  margin: 25px;
 }
 

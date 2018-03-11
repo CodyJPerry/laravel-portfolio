@@ -10175,9 +10175,31 @@ html {
   text-align: center;
 }
 
+.services-offered .service-text {
+  margin-bottom: 35px;
+}
+
 .services-offered .service-button {
-  display: block;
   text-align: center;
+  border: 3px solid #FF8D00;
+  padding: 10px 20px;
+  color: #111111;
+  border-radius: 4px;
+  letter-spacing: 2px;
+  font-weight: bold;
+  width: 115px;
+  margin-left: 4.5rem;
+  font-size: 1.2em;
+}
+
+.services-offered .service-button:hover {
+  background: #444554;
+  -webkit-transition: 0.6s ease all;
+  transition: 0.6s ease all;
+  color: #fff;
+  border-radius: 1px;
+  border-color: #444554;
+  text-decoration: none;
 }
 
 .services-offered .service-title {

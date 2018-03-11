@@ -18,19 +18,19 @@
             <a class="service-button" href="#">Button</a> 
           </div>
           <div class="col-sm-3">
-              <img class="service-img" src="http://placekitten.com/g/200/200" alt="placeholder">
+              <img class="service-img" src="/images/design-icon.svg" alt="Design Icon">
               <h4 class="service-title">Design</h4>
               <p class="service-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae, blanditiis.</p>
               <a class="service-button" href="#">Button</a>  
           </div>
           <div class="col-sm-3">
-            <img class="service-img" src="http://placekitten.com/g/200/200" alt="placeholder">
+            <img class="service-img" src="/images/development-icon.svg" alt="Development Icon">
             <h4 class="service-title">Development</h4>
             <p class="service-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque, dolorem?</p>
             <a class="service-button" href="#">Button</a>  
           </div>
           <div class="col-sm-3">
-            <img class="service-img" src="http://placekitten.com/g/200/200" alt="placeholder">
+            <img class="service-img" src="/images/maintenance-icon.svg" alt="Maintenance Icon">
             <h4 class="service-title">Maintenance</h4>
             <p class="service-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate, tempora!</p>
             <a class="service-button" href="#">Button</a>  

@@ -10007,7 +10007,7 @@ html {
 .navbar .navbar-brand {
   margin-left: 1rem;
   font-size: 1.3em;
-  font-family: 'Coiny', cursive;
+  font-family: 'arvo', cursive;
   letter-spacing: 4px;
   color: #4eb8ff;
 }
@@ -10153,5 +10153,36 @@ html {
   height: 5px;
   width: 35vw;
   margin: 25px;
+}
+
+.services-offered h3 {
+  font-family: 'Arvo', serif;
+  margin: 30px 0;
+  font-size: 2.1em;
+  color: #004777;
+  letter-spacing: 1px;
+  font-weight: 900;
+}
+
+.services-offered .service-img {
+  height: 150px;
+  width: 150px;
+  margin-left: 3.4rem;
+}
+
+.services-offered .service-title,
+.services-offered .service-text {
+  text-align: center;
+}
+
+.services-offered .service-button {
+  display: block;
+  text-align: center;
+}
+
+.services-offered .service-title {
+  font-family: 'Arvo', serif;
+  margin: 15px 0;
+  font-size: 1.7em;
 }
 

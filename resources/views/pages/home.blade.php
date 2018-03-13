@@ -1,10 +1,8 @@
 @extends('layout.app')
 
-
 @section('main')
   @include('partials.header')
 
-  
   <!-- WHAT WE OFFER -->
   <div class="services-offered">
       <span class="divider">What We Offer</span>
@@ -32,7 +30,7 @@
           <div class="col-sm-3">
             <img class="service-img" src="/images/maintenance-icon.svg" alt="Maintenance Icon">
             <h4 class="service-title">Maintenance</h4>
-            <p class="service-text">Not a fan of code. No problem, we provide complete maintenance plans!</p>
+            <p class="service-text">Not a fan of code. No problem, we provide complete maintenance plans.</p>
             <a class="service-button" href="#">Learn More!</a>  
           </div>
         </div>
